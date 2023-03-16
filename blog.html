@@ -15,12 +15,167 @@
   </head>
   <body>
     <h1 class="blog-title text-center mt-5 mb-5 text-info">
-      Assignment Blog task
+      <u>Assignment Blog task</u>
     </h1>
 
     <main>
       <!-- F&Q start -->
+      <section class="question practice-area text-center container">
+        <div
+          class="accordion accordion-flush text-start"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed title"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                1. .map() vs .filter() vs .forEach() and .find() ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body description section-description">
+                A. .map() executes the same code on every element in an array
+                and returns a new array with the updated elements. <br />
+                B. .filter() checks every element in an array to see if it meets
+                a certain criteria and returns a new array with the elements
+                that return truthy for the criteria. <br />
+                C. .forEach(), is used to execute the same code on every element
+                in an array but does not change the array and it returns
+                undefined. <br />
+                D. The find() method returns the first element in the provided
+                array that satisfies the provided testing function. If no values
+                satisfy the testing function, undefined is returned.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed title"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                2. Localstorage vs Sessionstorage vs Cookies difference ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body description section-description">
+                <b>Localstorage :</b> Local storage is useful for storing data
+                that the user will need to access later, such as offline data.
+                <b>Sessionstorage :</b> Session storage is a great way to
+                improve the performance of your web applications.
+                <b>Cookies :</b> Cookies are a good choice for storing data that
+                should not be persisted for a long time, such as session IDs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed title"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                3. What is event loop ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body description section-description">
+                The event loop is the secret behind JavaScript's asynchronous
+                programming. JS executes all operations on a single thread, but
+                using a few smart data structures, it gives us the illusion of
+                multi-threading. Let's take a look at what happens on the
+                back-end.
+              </div>
+            </div>
+          </div>
 
+          <br /><br />
+          <h3 class="blog-title text-center text-info"><u>Second Task</u></h3>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed title"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                4. What is QuizTimer Function ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body description section-description">
+                A quiztimer function is simply a tool that helps you put a time
+                limit on questions during a quiz. If you think of your favourite
+                trivia gameshows, it's likely that most of them feature some
+                sort of quiz timer for questions.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button
+                class="accordion-button collapsed title"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                5. What is chooseQuiz function ?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body description section-description">
+                This is a function that will select any one or many answers from
+                many options in the quiz function you have created.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item"></div>
+        </div>
+      </section>
       <!-- F&Q end -->
     </main>
 
@@ -30,7 +185,5 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/common.js"></script>
-    <script src="./js/app.js"></script>
   </body>
 </html>
