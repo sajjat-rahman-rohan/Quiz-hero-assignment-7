@@ -185,3 +185,10 @@ document.querySelector("#submit").addEventListener("click", () => {
 });
 
 // ALL Bug Fix No Error or Bug
+
+//  add click event handler with the blog button
+document
+  .getElementById("header-blog-btn")
+  .addEventListener("click", function () {
+    window.open("blog.html", "_blank");
+  });
